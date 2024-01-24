@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.input-box {
+    margin: 10px 30px;
+    height: 50px;
+}
+
+
+.form-group input {
+    height: 40px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #121212;
+    font-weight: 400;
+    color: #1c1b1f;
+    outline: none;
+    margin-bottom: 10px;
+}

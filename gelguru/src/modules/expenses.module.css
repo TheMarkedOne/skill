@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: visible !important;
+}
+
+.header {
+  background: #29b66a;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 120px 3px 120px;
+}
+
+.logoSide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+
+.logoSide span {
+  color: #f7931e;
+}
+
+.logoSide h1 {
+  position: relative;
+  top: 40px;
+}
+
+.logoSide img {
+  width: 149px;
+  height: 110px;
+  position: relative;
+  top: 10px;
+}
+
+.headerTitle {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  color: white;
+  align-items: flex-end;
+}
+
+.headerTitle p {
+  position: relative;
+  font-weight: 600;
+  top: 40px;
+}
+
+.orangeBar,
+.orangeBar2 {
+  background-color: #f7931e;
+  height: 2px;
+  width: 30px;
+  position: relative;
+  top: 42px;
+}
+
+.orangeBar2 {
+  background-color: transparent !important;
+}
+.userSide {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+.userSide p {
+  white-space: nowrap;
+  position: relative;
+  top: 40px;
+  font-weight: 600;
+  color: white;
+}
+
+.userImg {
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.userSide div {
+  background-color: rgba(32, 235, 62, 0.544);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 1px;
+  position: relative;
+  top: 30px;
+}
+
+.attribute {
+  position: absolute;
+  top: 29px;
+  left: 27px;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  height: 180px;
+  background-color: #29b66a;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.footerTitle {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10rem;
+  color: white;
+  margin-top: 20px;
+}
+
+.footerText {
+  margin-left: 20%;
+  text-align: center;
+  color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.rights {
+  font-size: 12px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.65rem;
+}
+
+.footerLogo {
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerLogo h1 {
+  color: white;
+  margin: 0;
+}
+
+.footerLogo span {
+  color: #f7931e;
+}
+
+.whiteSubject {
+  position: absolute;
+  width: 788px !important;
+  height: 243px;
+  background-color: white;
+  right: -180px;
+  transform: rotate(135deg);
+}
+
+
+.expenses{
+    position: relative;
+    width: 100%;
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    height: 600px;
+}
+
+.expensesLogo{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.expensesTitle{
+    color: #29b66a;
+    font-size: 22px;
+}
+
+.expensesText{
+    color: #757575;
+    font-weight: 600;
+    font-size: 17px;
+}

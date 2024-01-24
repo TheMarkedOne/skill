@@ -1,0 +1,12 @@
+.datePick {
+  height: 28px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  caret-color: #29b66a;
+  caret-shape: block;
+  padding-left: 10px;
+}
+
+.datePick:focus {
+  outline: none;
+}

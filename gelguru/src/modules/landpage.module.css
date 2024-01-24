@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+.main {
+  background: url("./../../../public/images/landBackground.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  padding-right: 200px !important;
+  justify-content: right;
+  gap: 160px;
+  height: 60px;
+  align-items: center;
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+.right{
+  margin-top: 100px;
+}
+
+
+.firstModal{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 900px;
+    height: 850px;
+    border-top-left-radius: 20px;
+    padding: 10px 250px 10px 50px;
+    background-color: white;
+}
+
+.firstModal h4{
+    color: #29b66a;
+    font-size: 20px;
+}
+
+.firstModal p{
+    color: #757575;
+    font-weight: 600;
+}
+
+.firstModal img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 0px;
+    right: 40px;
+}
+
+.yvelazemzeoba {
+  color: #f7931e;
+  font-family: Noto Sans;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+}
+
+.ertnairi {
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.logoDivParent {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  margin-left: -30px;
+}
+
+.gelgurutext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.welcome {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.btndiv {
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+  margin-top: 60px;
+}
+
+.btndiv button{
+  border-radius: 4px;
+  width: 200px;
+  height: 48px !important;
+  padding: 10px 0px;
+  margin: 0px 60px;
+}
+
+.copyright-box{
+  display: flex;
+  margin-top: 130px;
+  flex-direction: row;
+  column-gap: 0.5rem;
+  font-size: 12px;
+  align-items: center;
+}
+
+.copyright-box img{
+  width: 16px;
+  height: 16px;
+}
+
+.sign {
+  display: flex;
+  width: 150px;
+  height: 38px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  color: #2faf3c;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+}
+
+.lefttext {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.left{
+  margin-top: 100px;
+}
+
+.uppertext {
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  margin-left: -150px !important;
+}

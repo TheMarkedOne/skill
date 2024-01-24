@@ -1,0 +1,173 @@
+.goalSide {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 100px;
+  margin-top: 100px;
+}
+
+.goal {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  /* border-color: 1px solid #29b66a; */
+}
+
+.save-buttonn{
+  position: relative;
+  color: rgba(117, 117, 117, 0.6);
+  font-weight: 400;
+  border: none;
+  background-color: transparent;
+  line-height: 16.1px;
+  position: absolute;
+  right: 135px;
+  margin-top: 200px;
+}
+
+.save-buttonn:hover{
+  color: red;
+}
+
+
+.remaining-p{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.trash-modal{
+  right: 170px;
+  border: 1px solid red;
+  border-radius: 4px;
+  width: 52px;
+  height: 44px;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputArea {
+  width: 30%;
+  border: 1px solid #29b66a;
+  border-radius: 8px 0px 0px 8px;
+  border-right: none !important;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputArea textarea {
+  width: 357px;
+  height: 100px;
+  border: 3px dashed #29b66a;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
+  resize: none;
+  padding: 5px;
+  caret-color: #29b66a;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.inputArea textarea:focus {
+  outline: none;
+}
+
+.goalsInfo {
+  padding: 20px 30px;
+  width: 68%;
+  border: 1px solid #29b66a;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.sliderContainer {
+  position: relative;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.slider {
+  width: 100%;
+  color: black;
+}
+
+.percentageP {
+  font-size: 10px;
+  margin: 0;
+  color: white;
+}
+
+.slider::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  background-color: #e0e0e0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type="range"] {
+    overflow: hidden;
+    -webkit-appearance: none;
+    background-color: #9a905d;
+  }
+
+  .slider::-webkit-slider-runnable-track {
+    background-color: #e0e0e0;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    width: 10px;
+    -webkit-appearance: none;
+    height: 12px;
+    cursor: ew-resize;
+    background: #434343;
+    box-shadow: -487px 0 0 487px #29b66a;
+  }
+
+  
+}
+
+.goalsInfoTitle,
+.goalsInfoFooter {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.goalsInfoFooter p,
+.goalsInfoTitle p {
+  margin: 0;
+  color: black;
+  font-size: 14px;
+}
+
+
+.goalsInfoFooter span{
+  color: #29b66a;
+  font-size: 17px;
+  font-weight: 600; 
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.goalsInfoTitle span{
+  color: black;
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.leftAmount{
+  color: #434343 !important;
+}
+
+.deadline{
+  font-size: 17px !important;
+}
