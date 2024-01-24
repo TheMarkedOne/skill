@@ -2,7 +2,7 @@ import axios from "axios";
 
 // /api/register/
 const client = axios.create({
-  baseURL: "http://127.0.0.1:8000",
+  baseURL: "http://172.16.15.40:8000",
 });
 
 export async function registerUser(registerData) {
@@ -74,7 +74,7 @@ export async function changePasswordApi(newData) {
 
 export const getCurrentUser = async (token) => {
   try {
-    const response = await fetch("http://127.0.0.1:8000/api/current-user/", {
+    const response = await fetch("http://172.16.15.40:8000/api/current-user/", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -123,7 +123,7 @@ export async function changeImage(image, token) {
 
   console.log(formData);
   try {
-    const response = await fetch("http://127.0.0.1:8000/api/upload-photo/", {
+    const response = await fetch("http://172.16.15.40/api/upload-photo/", {
       method: "POST",
       headers: {
         Authorization: `Bearer ${token}`,
@@ -146,7 +146,7 @@ export async function changeImage(image, token) {
 export async function financialEntry(incomeData, token) {
   try {
     const response = await fetch(
-      `http://127.0.0.1:8000/api/financial-entries/`,
+      `http://172.16.15.40:8000/api/financial-entries/`,
       {
         method: "POST",
         headers: {
@@ -171,7 +171,7 @@ export async function financialEntry(incomeData, token) {
 
 export async function expenceEntry(expenceData, token) {
   try {
-    const response = await fetch(`http://127.0.0.1:8000/api/expense-entries/`, {
+    const response = await fetch(`http://172.16.15.40:8000/api/expense-entries/`, {
       method: "POST",
       headers: {
         Authorization: `Bearer ${token}`,
@@ -195,7 +195,7 @@ export async function expenceEntry(expenceData, token) {
 export async function getYourFinances(token) {
   try {
     const response = await fetch(
-      "http://127.0.0.1:8000/api/financial-entries/",
+      "http://172.16.15.40:8000/api/financial-entries/",
       {
         method: "GET",
         headers: {
@@ -214,7 +214,7 @@ export async function getYourFinances(token) {
 
 export async function getYourExpence(token) {
   try {
-    const response = await fetch("http://127.0.0.1:8000/api/expense-entries/", {
+    const response = await fetch("http://172.16.15.40:8000/api/expense-entries/", {
       method: "GET",
       headers: {
         Authorization: `Bearer ${token}`,
@@ -234,7 +234,7 @@ export async function getBalanceSummary(period, token) {
   console.log(period);
   try {
     const response = await fetch(
-      `http://127.0.0.1:8000/api/financial-expense-summary/week/`,
+      `http://172.16.15.40:8000/api/financial-expense-summary/week/`,
       {
         method: "GET",
         headers: {
